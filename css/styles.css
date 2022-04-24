@@ -1,0 +1,137 @@
+/*********************************************** CLASS-SELECTORS **************************************************/
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.box {
+    width: 33%;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.image {
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.heading {
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    font-size: 14px;
+}
+
+.description {
+    padding-left: 40px;
+    padding-right: 40px;
+    font-weight: 500;
+}
+
+.action-plan {
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.action-plan-price {
+    text-align: left;
+    width: 175px;
+    position: relative;
+}
+
+.music-icon-image {
+    float: left;
+    padding: 25px;
+}
+
+.annual-plan-heading {
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    position: absolute;
+    top: 2px;
+}
+
+.price {
+    position: absolute;
+    bottom: 11px;
+}
+
+.change-plan {
+    margin: auto;
+    padding-right: 10px;
+    text-decoration: underline;
+    font-weight: 700;
+    color: hsl(245, 75%, 52%);
+}
+
+.change-plan:hover {
+    text-decoration: none;
+    color: hsl(245, 42%, 60%);
+}
+
+.payment {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-top: 30px;
+}
+
+.btn {
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 18px 24px #dadae6;
+    -moz-box-shadow: 0px 18px 24px #dadae6;
+    box-shadow: 0px 18px 24px #dadae6;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    background: hsl(245, 75%, 52%);
+    padding: 12px 100px 12px 100px;
+    text-decoration: none;
+    margin: 30px 45px 30px 45px;
+}
+
+.btn:hover {
+    background-color: hsl(245, 42%, 60%);
+    text-decoration: none;
+}
+
+.cancel-box {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.cancel {
+    font-weight: 700;
+    margin-bottom: 50px;
+    font-size: 15px;
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+}
+
+.cancel:hover {
+    color: hsl(223, 47%, 23%);
+}
+
+/*********************************************** TAG-SELECTORS **************************************************/
+
+body {
+    background: hsl(225, 100%, 94%) url("../images/pattern-background-desktop.svg") no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
+    color: hsl(224, 23%, 55%);
+    margin: 100px 0 100px 0;
+}
